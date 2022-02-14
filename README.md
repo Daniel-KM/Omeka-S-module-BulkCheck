@@ -1,6 +1,9 @@
 Bulk Check (module for Omeka S)
 ===============================
 
+> ***IMPORTANT***: This module is deprecated and has been replaced by the module
+> [Easy Admin] and won’t be updated any more. The upgrade from it is automatic.
+
 > __New versions of this module and support for Omeka S version 3.0 and above
 > are available on [GitLab], which seems to respect users and privacy better
 > than the previous repository.__
@@ -120,6 +123,7 @@ Copyright
 * Copyright Daniel Berthereau, 2019-2021 (see [Daniel-KM] on GitLab)
 
 
+[Easy Admin]: https://gitlab.com/Daniel-KM/Omeka-S-module-EasyAdmin
 [Bulk Check]: https://gitlab.com/Daniel-KM/Omeka-S-module-BulkCheck
 [Omeka S]: https://omeka.org/s
 [Archive Repertory]: https://gitlab.com/Daniel-KM/Omeka-S-module-ArchiveRepertory
