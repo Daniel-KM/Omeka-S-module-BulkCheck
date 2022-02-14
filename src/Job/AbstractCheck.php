@@ -281,7 +281,7 @@ abstract class AbstractCheck extends AbstractJob
             $filePath = $destinationDir . '/' . $filename;
             if (!file_exists($filePath)) {
                 try {
-                    $result = touch($filePath);
+                    $result = @touch($filePath);
                 } catch (\Exception $e) {
                     $this->job->setStatus(\Omeka\Entity\Job::STATUS_ERROR);
                     $this->logger->err(
